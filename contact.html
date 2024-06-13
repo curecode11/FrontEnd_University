@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/8af275879e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="anita-austvika-pn1nCFB3l3Y-unsplash.jpg" alt="img"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+    <!-- contact us -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14022.752352937345!2d77.2060235!3d28.51903065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1672568453960!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contactus">
+        <div class="row">
+            <div class="contactcol">
+                <div>
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <span>
+                        <h5>XYz Road,Abc building</h5>
+                        <p>Bangalore,karnataka,India</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+11 2434234920</h5>
+                        <p>Monday to Saturday,10pm to 12pm</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>abc@gmail.com</h5>
+                        <p>Email us for further queries</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contactcol">
+                <form action="">
+                    <input type="text" placeholder="enter your name" required>
+                    <input type="email" placeholder="enter your email" required>
+                    <input type="text" placeholder="enter your subject" required>
+                    <textarea  rows="10" placeholder="Message"></textarea>
+                    <button type="submit" class="hero-btn red-btn">send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Iure, enim sapiente quae, inventore nam libero
+            eaque fuga dolorum nulla earum repudiandae ad accusantium blanditiis id nemo minus veritatis unde
+            cupiditate?</p>
+        <div class="icons">
+            <p>Follow Us On:</p>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+            <p>Made With <i class="fa-regular fa-heart"></i> by Ronak</p>
+        </div>
+    </section>
+    <!-- javascript for toggle menu -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

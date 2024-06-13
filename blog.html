@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/8af275879e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="anita-austvika-pn1nCFB3l3Y-unsplash.jpg" alt="img"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>Our Certificate & online Programs For 2023</h1>
+    </section>
+
+    <!-- blog page content -->
+    <section class="blog">
+        <div class="row">
+            <div class="blogleft">
+                <img src="anita-austvika-pn1nCFB3l3Y-unsplash.jpg" alt="">
+                <h2>Our Certificate & online Programs For 2023</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laboriosam molestiae quas neque sit perspiciatis nemo vel quis voluptate eveniet blanditiis, facilis harum non amet eum incidunt, maiores alias repellendus mollitia quod voluptatibus, quae veniam animi? Sit quasi vitae necessitatibus ipsa ad. Nobis voluptates vel facere nesciunt, culpa porro corrupti!</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A earum itaque obcaecati provident incidunt vitae similique corporis modi tenetur ratione. Veniam eius, ipsum iste aut numquam, fuga sed obcaecati dignissimos autem nihil debitis ratione praesentium consequatur esse velit rerum earum cumque repudiandae, laborum impedit eaque voluptate iusto at sapiente? Voluptates iste obcaecati sint delectus sed totam fuga vel facere excepturi. Recusandae quod cupiditate iusto hic beatae exercitationem quasi veritatis labore cumque. Soluta dicta dolor corrupti aliquid dignissimos quam, qui eos nisi mollitia animi ducimus laudantium facere nihil voluptates optio ullam vitae pariatur voluptas vero quasi. Repellat facilis facere magnam cupiditate?</p>
+                <div class="commentbox">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="commentform">
+                        <input type="text" placeholder="enter name">
+                        <input type="email" placeholder="enter email">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="enter your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blogright">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Python Engineer</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Principal Software Engineer</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Software Developer Intern</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Scikit Expert</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Devops Engineer</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Game Developer</span>
+                    <span>21</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Iure, enim sapiente quae, inventore nam libero
+            eaque fuga dolorum nulla earum repudiandae ad accusantium blanditiis id nemo minus veritatis unde
+            cupiditate?</p>
+        <div class="icons">
+            <p>Follow Us On:</p>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-github"></i>
+            <p>Made With <i class="fa-regular fa-heart"></i> by Ronak</p>
+        </div>
+    </section>
+    <!-- javascript for toggle menu -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
